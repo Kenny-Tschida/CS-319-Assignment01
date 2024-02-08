@@ -26,7 +26,28 @@
       }
 
       .card-body {
+        padding: 10;
         background-color: rgb(7, 66, 26);
+      }
+
+      .fw-light {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(7, 66, 26);
+      }
+
+      .text-body-secondary {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(7, 66, 26);
+      }
+
+      .home {
+        color: rgb(7, 66, 26);
+      }
+
+      .container {
+        border-color: rgb(7, 66, 26);
+        padding: 0.5%;
       }
     </style>
 
@@ -69,8 +90,8 @@
   <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Yellowstone National Park</h1>
-        <p class="lead text-body-secondary">Yellowstone National Park is a huge area of land set aside for nature to prosper. Check out the different things Yellowstone has to offer. From its rich history to its hiking options and wildlife.</p>
+        <h1 class="fw-light"><strong>Yellowstone National Park</strong></h1>
+        <p class="text-body-secondary">Yellowstone National Park is a huge area of land set aside for nature to prosper. Check out the different things Yellowstone has to offer. From its rich history to its hiking options and wildlife.</p>
 
       </div>
     </div>
@@ -81,7 +102,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-            <img src="./images/oldFaithful.jpeg" alt="old-faithful">
+            <img src="./images/oldFaithful.jpeg" alt="old-faithful" width="100%" height="225">
             <div class="card-body">
               <p class="card-title">Old Faithful</p>
               <p class="card-text">Yellowstone was the first national park to be founded in the United States. On March 1st, 1872, president Ulysses S. Grant and the U.S. congress signed it into law!</p>
@@ -92,7 +113,7 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="./images/grand-canyon-of-the-yellowstone.jpeg" alt="grand-canyon-of-the-yellowstone">
+            <img src="./images/grand-canyon-of-the-yellowstone.jpeg" alt="grand-canyon-of-the-yellowstone" width="100%" height="225">
             <div class="card-body">
               <p class="card-title">Grand Canyon of the Yellowstone</p>
               <p class="card-text">Yellowstone is one of the largest temperate-zone ecosystems on the planet! Sitting at almost 3,500 square miles its home over 100 different species. In fact, 67 different species are mammals, making Yellowstone the largest concentration of mammals in the mainland 48 states!</p>
@@ -103,7 +124,7 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="./images/roosevelt-arch.webp" alt="roosevelt-arch">
+            <img src="./images/roosevelt-arch.webp" alt="roosevelt-arch" width="100%" height="225">
             <div class="card-body">
               <p class="card-title">Roosevelt Arch</p>
               <p class="card-text">Located in the northwest corner of Wyoming it sits secluded with entrances from Idaho, Montana, and its southern neighbor Grand Teton National Park! If you ever are looking for a new vacation idea, visit Yellowstone!</p>
@@ -113,10 +134,10 @@
           </div>
         </div>
       </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" >
         <div class="col">
           <div class="card shadow-sm">
-            <img src="./images/old-faithful-inn.jpeg" alt="old-faithful-inn">
+            <img src="./images/old-faithful-inn.jpeg" alt="old-faithful-inn" width="100%" height="225">
             <div class="card-body">
               <p class="card-title">Old Faithful Inn</p>
               <p class="card-text">Yellowstone is home to over 500 active geysers, 290 waterfalls, 1800 archaeological sites, and even experiences 1000-3000 earthquakes annually.</p>
@@ -127,7 +148,7 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="./images/yellowstone-lake.jpeg" alt="yellowstone-lake">
+            <img src="./images/yellowstone-lake.jpeg" alt="yellowstone-lake" width="100%" height="225">
             <div class="card-body">
               <p class="card-title">Yellowstone Lake</p>
               <p class="card-text">Yellowstone Lake is the largest high-elevation lake in the United States! The lake is home to over 30 species of aquatic fauna!</p>
@@ -138,7 +159,7 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <img src="./images/gibbon-falls.jpeg" alt="gibbon-falls">
+            <img src="./images/gibbon-falls.jpeg" alt="gibbon-falls" width="100%" height="225">
             <div class="card-body">
               <p class="card-title">Gibbon Falls</p>
               <p class="card-text">Because Yellowstone is one of the largest national parks in the United States, covering around 3,500 square miles, it also means it has a ton of trails. A total of 92 trailheads exist in Yellowstone with around 1,000 miles of trails and 15 miles of boardwalk.</p>
@@ -154,13 +175,11 @@
 
 <footer class="text-body-secondary py-5">
   <div class="container">
-    <p>Yellowstone National Park: Home</p>
-    <p>Developed by Jacob Lehrman and Kenneth Tschida</p>
+    <p class="home">Yellowstone National Park: Home</p>
+    <p class="home">Developed by Jacob Lehrman and Kenneth Tschida</p>
     <p class="float-end mb-1">
       <a href="#">Back to top</a>
     </p>
-    <p class="mb-1"></p>
-    <p class="mb-0"></p>
   </div>
 </footer>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
