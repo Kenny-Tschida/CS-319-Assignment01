@@ -49,6 +49,32 @@
         border-color: rgb(7, 66, 26);
         padding: 0.5%;
       }
+      div.authorInfo {
+        vertical-align: top;
+        display: inline-block;
+        text-align: left;
+        width: 350px;
+        margin:100px;     
+      }
+      .caption {
+        display: block;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(7, 66, 26);
+        margin-left:2px;
+      }
+      h1{
+        font-family: 'Times New Roman', Times, serif;
+        margin:30px;
+        color: rgb(7, 66, 26);
+      }
+      p.info{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(7, 66, 26);
+        padding:50px;
+      }
+      div.pageInfo{
+        background-color:blanchedalmond;
+      }
     </style>
 
     
@@ -87,13 +113,25 @@
 
 <main>
 <body>
-  <img src="./images/IMG_1284.jpeg"alt="ME!">
+  <div class="pageInfo">
+    <p class="info">This webpage was made for Assignment01 of COM S 319 on Feb 08, 2024. <br>Our professor is Ali Jannesari.</p>
+    <div class="authorInfo">
+      <img src="./images/IMG_1284.jpeg"alt="JAKE!"height="350px">
+      <span class="caption">Name: Jacob Lehrman</span>
+      <span class="caption">Email: jlehrman@iastate.edu</span>
+    </div>
+    <div class="authorInfo">
+      <img src="./images/IMG_3037.PNG"alt="KENNY!"height="350px">
+      <span class="caption">Name: Kenny Tschida</span>
+      <span class="caption">Email: ktschida@iastate.edu</span>
+    </div>
+  </div>
 </body>
 </main>
 
 <footer class="text-body-secondary py-5">
   <div class="container">
-    <p class="home">Yellowstone National Park: Home</p>
+    <p class="home">Yellowstone National Park: About</p>
     <p class="home">Developed by Jacob Lehrman and Kenneth Tschida</p>
     <p class="float-end mb-1">
       <a href="#">Back to top</a>
